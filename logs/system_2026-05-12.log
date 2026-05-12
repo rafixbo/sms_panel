@@ -1,0 +1,144 @@
+2026-05-12 18:16:21 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:16:31 | [INFO] | PROXY_FALLBACK_START | Gateway: A1 | 10 proxies available | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:16:31 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 1/10 (ID:3) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:16:32 | [WARNING] | PROXY_FAILED_CURL | Proxy ID:3 | cURL Error: User was rejected by the SOCKS5 server (1 1). | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:16:32 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 2/10 (ID:5) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:16:35 | [INFO] | PROXY_SUCCESS | Proxy ID:5 SUCCEEDED on attempt 2/10 | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:20:59 | [INFO] | PROXY_FALLBACK_START | Gateway: A1 | 10 proxies available | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:20:59 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 1/10 (ID:3) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:21:00 | [WARNING] | PROXY_DISABLED | Proxy ID 3 disabled after 3 consecutive fails | IP:103.35.109.22
+2026-05-12 18:21:00 | [WARNING] | PROXY_FAILED_CURL | Proxy ID:3 | cURL Error: User was rejected by the SOCKS5 server (1 1). | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:21:00 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 2/10 (ID:6) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:21:04 | [INFO] | PROXY_SUCCESS | Proxy ID:6 SUCCEEDED on attempt 2/10 | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:21:25 | [SECURITY] | INVALID_KEY | Key: NBD-1D2F-DE7B | Phone: 01889315895 | IP: 103.35.109.22 | IP:103.35.109.22
+2026-05-12 18:21:26 | [SECURITY] | INVALID_KEY | Key: NBD-1D2F-DE7B | Phone: 01889315895 | IP: 103.35.109.22 | IP:103.35.109.22
+2026-05-12 18:28:21 | [INFO] | GATEWAY_CREATED | Gateway: A2 | URL: https://api-merchant.carrybee.com/api/v2/merchant/register | Method: POST | BodyType: form | IP:127.0.0.1
+2026-05-12 18:28:49 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 10 proxies available | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:28:49 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/10 (ID:3) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:28:51 | [WARNING] | PROXY_DISABLED | Proxy ID 3 disabled after 3 consecutive fails | IP:103.35.109.22
+2026-05-12 18:28:51 | [WARNING] | PROXY_FAILED_API | Proxy ID:3 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:28:51 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 2/10 (ID:7) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:28:54 | [WARNING] | PROXY_FAILED_API | Proxy ID:7 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:28:54 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 3/10 (ID:8) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:28:57 | [WARNING] | PROXY_FAILED_API | Proxy ID:8 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:28:57 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 4/10 (ID:9) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:28:59 | [WARNING] | PROXY_FAILED_API | Proxy ID:9 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:28:59 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 5/10 (ID:10) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:02 | [WARNING] | PROXY_FAILED_API | Proxy ID:10 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:02 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 6/10 (ID:1) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:04 | [WARNING] | PROXY_FAILED_API | Proxy ID:1 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:04 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 7/10 (ID:2) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:08 | [WARNING] | PROXY_FAILED_API | Proxy ID:2 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:08 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 8/10 (ID:4) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:11 | [WARNING] | PROXY_FAILED_API | Proxy ID:4 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:11 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 9/10 (ID:5) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:14 | [WARNING] | PROXY_FAILED_API | Proxy ID:5 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:14 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 10/10 (ID:6) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:29:17 | [WARNING] | PROXY_FAILED_API | Proxy ID:6 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:29:17 | [ERROR] | ALL_PROXIES_FAILED | Gateway: A2 | All 10 proxies exhausted | Tried: proxy_3 FAILED(api:HTTP 400/API code:400) -> proxy_7 FAILED(api:HTTP 400/API code:400) -> proxy_8 FAILED(api:HTTP 400/API code:400) -> proxy_9 FAILED(api:HTTP 400/API code:400) -> proxy_10 FAILED(api:HTTP 400/API code:400) -> proxy_1 FAILED(api:HTTP 400/API code:400) -> proxy_2 FAILED(api:HTTP 400/API code:400) -> proxy_4 FAILED(api:HTTP 400/API code:400) -> proxy_5 FAILED(api:HTTP 400/API code:400) -> proxy_6 FAILED(api:HTTP 400/API code:400) | Phone: 01889315895 | IP:103.35.109.22
+2026-05-12 18:30:44 | [INFO] | GATEWAY_DELETED | Gateway: A2 | IP:127.0.0.1
+2026-05-12 18:33:16 | [INFO] | GATEWAY_CREATED | Gateway: A2 | URL: https://api-merchant.carrybee.com/api/v2/merchant/register | Method: POST | BodyType: form | IP:127.0.0.1
+2026-05-12 18:33:24 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 9 proxies available | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:24 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/9 (ID:7) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:26 | [WARNING] | PROXY_FAILED_API | Proxy ID:7 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:26 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 2/9 (ID:8) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:30 | [WARNING] | PROXY_FAILED_API | Proxy ID:8 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:30 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 3/9 (ID:9) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:34 | [WARNING] | PROXY_FAILED_API | Proxy ID:9 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:34 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 4/9 (ID:10) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:37 | [WARNING] | PROXY_FAILED_API | Proxy ID:10 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:37 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 5/9 (ID:1) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:39 | [WARNING] | PROXY_FAILED_API | Proxy ID:1 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:39 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 6/9 (ID:2) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:42 | [WARNING] | PROXY_FAILED_API | Proxy ID:2 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:42 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 7/9 (ID:4) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:45 | [WARNING] | PROXY_FAILED_API | Proxy ID:4 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:45 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 8/9 (ID:5) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:48 | [WARNING] | PROXY_FAILED_API | Proxy ID:5 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:48 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 9/9 (ID:6) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:33:51 | [WARNING] | PROXY_FAILED_API | Proxy ID:6 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:33:51 | [ERROR] | ALL_PROXIES_FAILED | Gateway: A2 | All 9 proxies exhausted | Tried: proxy_7 FAILED(api:HTTP 400/API code:400) -> proxy_8 FAILED(api:HTTP 400/API code:400) -> proxy_9 FAILED(api:HTTP 400/API code:400) -> proxy_10 FAILED(api:HTTP 400/API code:400) -> proxy_1 FAILED(api:HTTP 400/API code:400) -> proxy_2 FAILED(api:HTTP 400/API code:400) -> proxy_4 FAILED(api:HTTP 400/API code:400) -> proxy_5 FAILED(api:HTTP 400/API code:400) -> proxy_6 FAILED(api:HTTP 400/API code:400) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:35:28 | [INFO] | PROXY_ADDED | Proxy: http://87.120.205.164:444 | Type: http | IP:127.0.0.1
+2026-05-12 18:38:04 | [INFO] | PROXY_BULK_ADD | Added 4 proxies, skipped 0 | IP:127.0.0.1
+2026-05-12 18:39:37 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 13 proxies available | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:37 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/13 (ID:3) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:39 | [WARNING] | PROXY_FAILED_API | Proxy ID:3 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:39 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 2/13 (ID:7) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:40 | [WARNING] | PROXY_FAILED_API | Proxy ID:7 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:40 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 3/13 (ID:8) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:43 | [WARNING] | PROXY_FAILED_API | Proxy ID:8 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:43 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 4/13 (ID:9) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:45 | [WARNING] | PROXY_FAILED_API | Proxy ID:9 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:45 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 5/13 (ID:10) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:48 | [WARNING] | PROXY_FAILED_API | Proxy ID:10 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:48 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 6/13 (ID:12) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:49 | [WARNING] | PROXY_FAILED_API | Proxy ID:12 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:49 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 7/13 (ID:14) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:50 | [WARNING] | PROXY_FAILED_API | Proxy ID:14 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:50 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 8/13 (ID:15) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:50 | [WARNING] | PROXY_FAILED_API | Proxy ID:15 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:50 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 9/13 (ID:1) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:53 | [WARNING] | PROXY_FAILED_API | Proxy ID:1 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:53 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 10/13 (ID:2) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:55 | [WARNING] | PROXY_FAILED_API | Proxy ID:2 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:55 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 11/13 (ID:4) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:39:58 | [WARNING] | PROXY_FAILED_API | Proxy ID:4 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:39:58 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 12/13 (ID:5) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:40:01 | [WARNING] | PROXY_FAILED_API | Proxy ID:5 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:40:01 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 13/13 (ID:6) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:40:03 | [WARNING] | PROXY_FAILED_API | Proxy ID:6 | API failure: HTTP 400/API code:400 | Trying next proxy... | IP:103.35.109.22
+2026-05-12 18:40:03 | [ERROR] | ALL_PROXIES_FAILED | Gateway: A2 | All 13 proxies exhausted | Tried: proxy_3 FAILED(api:HTTP 400/API code:400) -> proxy_7 FAILED(api:HTTP 400/API code:400) -> proxy_8 FAILED(api:HTTP 400/API code:400) -> proxy_9 FAILED(api:HTTP 400/API code:400) -> proxy_10 FAILED(api:HTTP 400/API code:400) -> proxy_12 FAILED(api:HTTP 400/API code:400) -> proxy_14 FAILED(api:HTTP 400/API code:400) -> proxy_15 FAILED(api:HTTP 400/API code:400) -> proxy_1 FAILED(api:HTTP 400/API code:400) -> proxy_2 FAILED(api:HTTP 400/API code:400) -> proxy_4 FAILED(api:HTTP 400/API code:400) -> proxy_5 FAILED(api:HTTP 400/API code:400) -> proxy_6 FAILED(api:HTTP 400/API code:400) | Phone: 8801889315895 | IP:103.35.109.22
+2026-05-12 18:42:25 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:26 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:27 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:27 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:27 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:27 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:28 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:42:28 | [SECURITY] | INVALID_KEY | Key: NBD-74B317-A4095B | Phone: 01889315895 | IP: 127.0.0.1 | IP:127.0.0.1
+2026-05-12 18:45:50 | [INFO] | GATEWAY_CREATED | Gateway: Nill | URL: https://api-merchant.carrybee.com/api/v2/merchant/register | Method: POST | BodyType: json | IP:127.0.0.1
+2026-05-12 18:47:23 | [INFO] | GATEWAY_DELETED | Gateway: A2 | IP:127.0.0.1
+2026-05-12 18:50:29 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 14 proxies available | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:29 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/14 (ID:3) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:31 | [WARNING] | PROXY_FAILED_API | Proxy ID:3 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:31 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 2/14 (ID:7) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:34 | [WARNING] | PROXY_FAILED_API | Proxy ID:7 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:34 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 3/14 (ID:8) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:38 | [WARNING] | PROXY_FAILED_API | Proxy ID:8 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:38 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 4/14 (ID:9) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:40 | [WARNING] | PROXY_FAILED_API | Proxy ID:9 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:40 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 5/14 (ID:10) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:43 | [WARNING] | PROXY_FAILED_API | Proxy ID:10 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:43 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 6/14 (ID:11) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:44 | [WARNING] | PROXY_FAILED_API | Proxy ID:11 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:44 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 7/14 (ID:12) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:45 | [WARNING] | PROXY_FAILED_API | Proxy ID:12 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:45 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 8/14 (ID:14) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:48 | [WARNING] | PROXY_FAILED_API | Proxy ID:14 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:48 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 9/14 (ID:15) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:49 | [WARNING] | PROXY_FAILED_API | Proxy ID:15 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:49 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 10/14 (ID:1) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:51 | [WARNING] | PROXY_FAILED_API | Proxy ID:1 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:51 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 11/14 (ID:2) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:55 | [WARNING] | PROXY_FAILED_API | Proxy ID:2 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:55 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 12/14 (ID:4) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:50:58 | [WARNING] | PROXY_FAILED_API | Proxy ID:4 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:50:58 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 13/14 (ID:5) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:51:01 | [WARNING] | PROXY_FAILED_API | Proxy ID:5 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:51:01 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 14/14 (ID:6) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:51:03 | [WARNING] | PROXY_FAILED_API | Proxy ID:6 | API failure: OTP request limit reached. Try again tomorrow. | Trying next proxy... | IP:127.0.0.1
+2026-05-12 18:51:03 | [ERROR] | ALL_PROXIES_FAILED | Gateway: A2 | All 14 proxies exhausted | Tried: proxy_3 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_7 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_8 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_9 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_10 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_11 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_12 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_14 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_15 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_1 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_2 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_4 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_5 FAILED(api:OTP request limit reached. Try again tomorrow.) -> proxy_6 FAILED(api:OTP request limit reached. Try again tomorrow.) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 18:51:14 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 14 proxies available | Phone: 01889315896 | IP:127.0.0.1
+2026-05-12 18:51:14 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/14 (ID:3) | Phone: 01889315896 | IP:127.0.0.1
+2026-05-12 18:51:17 | [INFO] | PROXY_SUCCESS | Proxy ID:3 SUCCEEDED on attempt 1/14 | Phone: 01889315896 | IP:127.0.0.1
+2026-05-12 18:51:26 | [INFO] | PROXY_FALLBACK_START | Gateway: A2 | 14 proxies available | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 18:51:26 | [INFO] | PROXY_ATTEMPT | Gateway: A2 | Trying proxy 1/14 (ID:7) | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 18:51:28 | [INFO] | PROXY_SUCCESS | Proxy ID:7 SUCCEEDED on attempt 1/14 | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 18:56:52 | [INFO] | PROXY_BULK_ADD | Added 19 proxies, skipped 0 | IP:127.0.0.1
+2026-05-12 19:00:33 | [INFO] | PROXY_FALLBACK_START | Gateway: A1 | 33 proxies available | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 19:00:33 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 1/33 (ID:8) | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 19:00:37 | [INFO] | PROXY_SUCCESS | Proxy ID:8 SUCCEEDED on attempt 1/33 | Phone: 01303170196 | IP:127.0.0.1
+2026-05-12 19:00:55 | [INFO] | PROXY_FALLBACK_START | Gateway: A1 | 33 proxies available | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 19:00:55 | [INFO] | PROXY_ATTEMPT | Gateway: A1 | Trying proxy 1/33 (ID:9) | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 19:00:59 | [INFO] | PROXY_SUCCESS | Proxy ID:9 SUCCEEDED on attempt 1/33 | Phone: 01889315895 | IP:127.0.0.1
+2026-05-12 19:15:22 | [INFO] | ADMIN_LOGIN | Admin logged in | IP: 103.35.109.22 | IP:103.35.109.22
