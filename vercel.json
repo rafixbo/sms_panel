@@ -1,0 +1,23 @@
+{
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf))", "dest": "/$1" },
+    { "src": "/login", "dest": "/api/login.php" },
+    { "src": "/logout", "dest": "/api/logout.php" },
+    { "src": "/dashboard", "dest": "/api/dashboard.php" },
+    { "src": "/gateways", "dest": "/api/gateways.php" },
+    { "src": "/logs", "dest": "/api/logs.php" },
+    { "src": "/points", "dest": "/api/points.php" },
+    { "src": "/proxies", "dest": "/api/proxies.php" },
+    { "src": "/send", "dest": "/api/send.php" },
+    { "src": "/stats", "dest": "/api/stats.php" },
+    { "src": "/system_logs", "dest": "/api/system_logs.php" },
+    { "src": "/install", "dest": "/api/install.php" },
+    { "src": "/keys", "dest": "/api/keys.php" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ]
+}
